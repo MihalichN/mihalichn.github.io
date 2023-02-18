@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+
+    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
+          href="/theme/pygments/github.min.css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/fontawesome.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/brands.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/solid.css">
+
+
+
+
+
+
+
+ 
+
+<meta name="author" content="Markov" />
+<meta name="description" content="Pelican - krasava" />
+<meta name="keywords" content="">
+
+
+  <meta property="og:site_name" content="markov_project"/>
+  <meta property="og:title" content="Первый блог для тэста"/>
+  <meta property="og:description" content="Pelican - krasava"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:url" content="/first-post.html"/>
+  <meta property="og:type" content="article"/>
+  <meta property="article:published_time" content="2023-02-18 14:30:00+03:00"/>
+  <meta property="article:modified_time" content=""/>
+  <meta property="article:author" content="/author/markov.html">
+  <meta property="article:section" content="новости"/>
+  <meta property="og:image" content="">
+
+  <title>markov_project &ndash; Первый блог для тэста</title>
+
+
+</head>
+<body class="light-theme">
+
+<aside>
+  <div>
+    <a href="/">
+      <img src="/theme/img/profile.png" alt="" title="">
+    </a>
+
+    <h1>
+      <a href="/"></a>
+    </h1>
+
+
+
+    <nav>
+      <ul class="list">
+
+
+
+          <li>
+            <a target="_self" href="https://ru.wikipedia.org/" >wiki</a>
+          </li>
+      </ul>
+    </nav>
+
+    <ul class="social">
+      <li>
+        <a class="sc-You can add links in your config file"
+           href="#"
+           target="_blank">
+          <i class="fa-brands fa-You can add links in your config file"></i>
+        </a>
+      </li>
+      <li>
+        <a class="sc-Another social link"
+           href="#"
+           target="_blank">
+          <i class="fa-brands fa-Another social link"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</aside>
+  <main>
+
+
+<article class="single">
+  <header>
+      
+    <h1 id="first-post"><b>Что такое Pelican</b></h1>
+    <p>
+      Опубликовано Сб 14 Января 2023 в <a href="/category/novosti.html">blog</a>
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>
+      Pelican – наиболее простой и в то же время мощный Python-генератор: с его помощью можно создать собственный сайт или блог в считаные минуты.
+      Статические (а точнее – пререндеренные) сайты переживают второе рождение, и неудивительно: они мгновенно загружаются, выдерживают любой трафик, им не нужен дорогой хостинг, они не используют базы данных и потому их практически невозможно взломать. С помощью генератора можно быстро сделать сайт-визитку, резюме или портфолио на основе любого готового HTML/CSS/JS-шаблона.
+      Вот кратких список основных возможностей pelican:
+    <li>Поддержка плагинов</li>
+    <li>Подстветка синтаксиса</li>
+    <li>Поддержка тем</li>
+    <li>"Из коробки" поддерживает возможность загружать блог используя FTP или SSH</li>
+    <li>Работает на Linux, MacOS и Windows</li>
+    <li>Поддержка нескольких языков разметки</li>
+    </p>
+
+    <p>
+      Что может Pelican? Рендерить статьи (article) блога и страницы (pages) из Markdown или reStructuredText. Статьи могут быть сгруппированы по дате, категориям (одна категория на статью), тегам (много тегов на статью), авторам. Генерятся отдельные страницы для списка всех статей (архив, archives), тегов, категорий, авторов. С пагинацией. Поддерживаются темы (с шаблонами на Jinja2) и плугины (на Python, конечно). URLы, менюхи, интеграция с Google Analytics и Disqus, всё настраивается.
+    </p>
+
+
+  </div>
+  <div class="tag-cloud">
+
+    <div>
+      <img src="b.png">
+    </div>
+    
+    <p>
+      Pelican создает для нас каталог для удобной работы с базой данных сайта и удобной верстки:
+    </p>
+
+    <div><img src="str.png"></div>
+    <p>
+      Как мы видим генератор создал для нас удобный каталог. Самым важным файлом, которым мы будем пользоваться в процессе разработки является <b>pelicanconf.py</b>, в нём мы будем вносить корневые изменения и настройки для работы всей системы, к примеру как значение временного пояса <b>TIMEZONE = 'Europe/Moscow'</b>, ссылки, темы, автора и даже название самого сайта.
+
+    </p>
+    <div><img src="pconf.png"></div>
+
+
+  </div>
+
+
+
+
+
+
+</article>
+
+<footer>
+<p>&copy;  </p>
+<p>Страница сделана своими лапками :)</p></footer>  </main>
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " markov_project ",
+  "url" : "",
+  "image": "",
+  "description": ""
+}
+</script>
+</body>
+</html>
